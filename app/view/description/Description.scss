@@ -1,0 +1,31 @@
+.desci1{
+    .but_of{
+       .x-inner-el{
+            border-radius:20px;
+            height:35px;
+        }
+    }
+}
+.Menu_form{
+    .x-panel{
+        background-color: #a60c5f !important;
+    }
+    .x-actionsheet-body-el{
+        background-color: #a60c5f !important;
+    }
+    .x-formpanel-body-el{
+        background-color: #a60c5f !important;
+        .x-input-el{
+            color:white;
+        }
+    }
+    .the_form{
+        .ui_change{
+            .x-button .x-inner-el{
+                background-color: white !important;
+                color:#a60c5f !important;
+            }
+        }
+    }
+}
+$textfield-placeholder-color:white

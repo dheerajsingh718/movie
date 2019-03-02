@@ -1,0 +1,28 @@
+$enable-font-awesome: dynamic(true);
+@include button-ui(
+    $ui:'nnn',
+    $color:white
+);
+@include toolbar-ui(
+    $ui:'tool-bot',
+    $background-color:white
+);
+.x-big .x-titlebar{
+    background-color: #a60c5f;
+}
+@include button-ui(
+    $ui:'purp',
+    $icon-color :white,
+    $background-color :#a60c5f,
+    $badge-border-radius:100%
+);
+@include button-ui(
+    $ui:'dhe',
+    $color :#a60c5f,
+    $background-color :white
+);
+@include button-ui(
+    $ui:'rev',
+    $color :white,
+    $background-color :#a60c5f
+);
